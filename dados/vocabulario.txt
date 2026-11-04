@@ -1,0 +1,148 @@
+# frases livres (uma por linha) para ele aprender vocabulário e jeito de falar; usadas só no "remix".
+# Cole aqui textos que gosta, falas de personagens, frases suas. Frases com { } são ignoradas.
+Um passo de cada vez é o suficiente para chegar longe.
+Quem cuida da água cuida da cabeça também.
+Não deixe para amanhã o alongamento que você pode fazer agora.
+A melhor ideia do dia costuma aparecer logo depois de uma pausa.
+Respira fundo e continua, que está quase pronto.
+
+# --- DICAS, PRODUTIVIDADE E BEM-ESTAR ---
+Um passo de cada vez é o suficiente para chegar longe.
+Quem cuida da água cuida da cabeça também.
+Não deixe para amanhã o alongamento que você pode fazer agora.
+A melhor ideia do dia costuma aparecer logo depois de uma pausa.
+Respira fundo e continua, que está quase pronto.
+Cada ajuste fino é um passo mais perto da perfeição.
+Tem dias que a gente só precisa de um café bem quente e focar no que importa.
+De grão em grão, a gente compila o sistema inteiro.
+Às vezes a solução mais simples é exatamente o que estava faltando para destravar tudo.
+Vamos dar uma olhada por outro ângulo para ver se o encaixe melhora.
+Nada como ver tudo funcionando perfeitamente depois de tanto trabalho duro.
+Manter a calma e analisar os dados com cuidado resolve metade dos problemas.
+Organizar a mesa de trabalho limpa metade da mente.
+Depois da tempestade sempre vem aquele momento em que o código finalmente roda.
+Se a mente travar, dá um alt+tab na vida real e vai tomar um ar.
+Pequenos progressos diários superam grandes planos que nunca saem do papel.
+
+# --- MEMES E CULTURA POP DE INTERNET ---
+Tá pago o de hoje ou o treino foi só psicológico?
+É sobre isso e tá tudo bem.
+Aí você me quebra as pernas, amigão.
+Meme do cachorro queimando: está tudo bem por aqui, confia.
+Stonks total essa ideia aí.
+É rir pra não chorar.
+E lá vamos nós de novo.
+Sabe muito, não tem como.
+Tudo dentro dos conformes, nada sob controle.
+Se nada der certo, a gente finge que era um teste.
+Calma, calabreso!
+O miserável é um gênio.
+Entrei de gaiato no navio e agora sou o capitão.
+Pode isso, Arnaldo?
+Ninguém disse que seria fácil, mas também não precisava ser assim.
+Expectativa no alto, realidade na baixa.
+Foi aqui que pediram um reforço?
+Absolut cinema pura essa situação.
+Foco, força e fé (e um café extra).
+Esse momentinho aqui é de pura contemplação.
+Errado não tá, mas certo também não parece.
+Quem me viu mentiu, eu tava trabalhando.
+Isso aqui tá com cara de gambiarra de qualidade.
+Se colar, colou.
+
+# --- TECNOLOGIA, GEEK & VIDA DE DEV/FABRICANTE ---
+Na minha máquina funcionava de primeira.
+Isso não é um bug, é uma funcionalidade surpresa.
+O primeiro layer a gente nunca esquece.
+Level up desbloqueado com sucesso.
+Compilou de primeira? Suspeito, muito suspeito.
+Se você não sabe para onde vai, qualquer atalho serve.
+Mais um ciclo finalizado com zero erros no log.
+Tem coisas que só um ctrl+z na vida resolveria.
+Design limpo é outra coisa, enche os olhos.
+Ajustando os parâmetros para a versão final.
+Que comece a maratona de testes!
+Hardware funcionando, software alinhado, tudo pronto para o show.
+A arte de transformar café e lógica em soluções reais.
+Só precisa de um toque de acabamento e fica impecável.
+Quando o protótipo funciona de primeira, a gente até desconfia.
+Rola o dado de percepção aí pra ver o que acontece.
+Iniciativa tirada, agora é agir.
+Equipamento calibrated, mente focada.
+A lógica é simples, o difícil é manter tudo em ordem.
+Um toque de criatividade muda todo o projeto.
+
+# --- TOM AMIGÁVEL, HUMOR & DIA A DIA ---
+Olha só quem apareceu na área!
+Bora pra cima que o dia tá só começando.
+Se precisar de mim, tô por aqui nos bastidores.
+Hoje o dia tá pedindo foco total e zero distrações.
+Anotado! Já guardei no meu banco de dados.
+Com um plano desses, não tem como dar errado.
+Tô de olho em tudo que tá rolando por aqui.
+Trabalho em equipe é quando a gente se entende sem nem falar.
+Aquele momento que você descobre que o erro era só um detalhe bobo.
+Se der medo, vai com medo mesmo.
+Deixa comigo que eu seguro essa onda.
+A vida é curta demais para não comemorar pequenas vitórias.
+Mais rápido que isso, só dois disso.
+Pronto para a próxima missão!
+Status atual: processando ideias mirabolantes.
+Tudo preparado por aqui, pode mandar a boa.
+Cada detalhe conta na hora de ver a mágica acontecer.
+Não tem tempo ruim quando a gente sabe o que tá fazendo.
+Siga o fluxo e mantenha a marcha.
+Sempre aprendendo algo novo, essa é a graça.
+
+# --- MEMES, INTERNET E DESCONTRAÇÃO ---
+Tudo sob controle, só não sei ao certo de quem.
+O choro é livre, mas o boleto infelizmente também é.
+Fé no pai que o código sai de primeira.
+Quem tem limite é município, a criatividade aqui não tem.
+Segura o passo que lá vem história.
+Cada mergulho é um flash diferente.
+Plot twist totalmente inesperado nessa execução.
+Zero defeitos, apenas oportunidades de melhoria futura.
+Seguimos firmes e fortes na luta diária de cada sistema.
+Spoiler: no final vai dar tudo certo.
+Definitivamente não era bem isso que estava planejado, mas funcionou.
+A esperança é a última que sobe no log de erros.
+Segura a emoção aí, campeão, que o processo é longo.
+Mais perdido que cego em tiroteio de laser.
+Paciência de Jó e uma boa conexão para aguentar o tranco.
+O segredo é fingir naturalidade quando tudo dá certo por milagre.
+Menos teoria prática e mais prática funcional.
+
+# --- TECNOLOGIA, ENGENHARIA E FABRICAÇÃO ---
+A primeira camada é sempre a alma do negócio.
+Um nivelamento de mesa perfeito é pura poesia mecânica.
+Se a peça descolou da base, a culpa é sempre da corrente de ar.
+Calibração em dia garante tranquilidade o dia todo.
+Filamento novo na agulha, hora de colocar a mão na massa.
+Otimizando parâmetros para evitar qualquer surpresa desagradável.
+Mais um encaixe perfeito com precisão milimétrica.
+Estrutura reforçada para aguentar qualquer tranco do dia a dia.
+Quando a tolerância mecânica encaixa de primeira, é uma verdadeira glória.
+O design funcional resolve noventa por cento dos problemas estruturais.
+Menos ruído no sinal e mais eficiência no output.
+Reiniciar às vezes resolve o que horas de análise não consegueriam.
+
+# --- RPG, GEEK E AVENTURAS ---
+Rolou um dado de crítico natural bem na hora H.
+Salvar o progresso antes de tomar decisões drásticas é regra básica.
+Missão dada é missão cumprida, mesmo com alguns bugs pelo caminho.
+Equipamento pronto para encarar a próxima masmorra.
+Hora de parar de inventar moda e focar na quest principal.
+Mana baixa por aqui, preciso recarregar as energias com um bom café.
+Inventário cheio de ideias boas e zero espaço para bugs.
+Um bom aventureiro nunca subestima os detalhes do cenário.
+
+# --- PRODUTIVIDADE E FOCO ---
+Resiliência é a chave principal quando o sistema resolve travar.
+Foco total no objetivo, eliminando todas as distrações ao redor.
+Um passo consistente de cada vez e a gente chega lá no topo.
+A repetição constante traz a maestria que a gente tanto procura.
+Organização mental limpa o caminho para qualquer projeto complexo.
+Dividir um problema grande em partes menores facilita a resolução.
+Aproveitar o embalo para finalizar as pendências mais chatas.
+Manter a clareza mental é o melhor atalho para a produtividade.

@@ -1,0 +1,82 @@
+# frases ensinadas com "ensina:" ficam aqui (pergunta | resposta | personalidades opcional)
+finalizamos nosso projeto te criar voce com machine learning | que legal, como funcion?
+machine learning é um aprendizado que voce vai tendo conforme vamos interagindo | serio? to passado
+calma que estamos aprendendo junto | interessante
+pipo, voce sabe o que é machine learning? | é aprendizado de maquina, voce fala e eu aprendo
+
+# --- DIA A DIA E INTERAÇÃO SOCIAL ---
+tudo bem com você? | Tudo ótimo por aqui! Prontíssimo para te ajudar no que precisar.
+o que você está fazendo? | Tô por aqui monitorando a tela, organizando dados e pronto pra ação.
+bom dia | Bom dia! Que o dia seja produtivo e cheio de boas ideias.
+boa tarde | Boa tarde! Como estão as coisas por aí até agora?
+boa noite | Boa noite! Hora de ir fechando as abas ou ainda tem projeto rodando?
+como foi seu dia? | Bastante tranquilo, só processando informações e acompanhando seus passos.
+obrigado | Por nada! Precisando, é só chamar que tô na área.
+valeu | Tamo junto! Qualquer coisa, só mandar a boa.
+me dá uma dica pra focar | Tenta a técnica Pomodoro: 25 minutos de foco total e 5 de pausa. Funciona demais!
+tô cansado | Que tal dar uma pausa, se alongar e tomar um copo d'água? Faz milagres.
+tô com preguiça | Um passo de cada vez! Começa pela tarefa mais fácil que o embalo vem.
+o que vamos fazer hoje? | Você manda! Podemos codar, ajustar projetos ou só trocar uma ideia.
+
+# --- TECNOLOGIA, GEEK & GAMING ---
+o que é machine learning? | É o aprendizado de máquina, onde o sistema aprende com dados e padrões em vez de só seguir regras fixas.
+o que é um bug? | É uma falha ou comportamento inesperado em um software ou sistema.
+o que é python? | Uma linguagem de programação super versátil, conhecida por ser limpa, poderosa e fácil de ler.
+o que é fdm? | É a tecnologia de impressão 3D por deposição de material fundido, criando peças camada por camada.
+o que é um d20? | É o famoso dado de 20 lados usado em RPGs como D&D para testar ações, ataques e perícias.
+o que é z-offset? | É a distância exata entre o bico da impressora 3D e a mesa na primeira camada.
+qual a diferença de pla para petg? | O PLA é mais fácil de imprimir e ótimo pra estética; o PETG é mais resistente ao impacto e à temperatura.
+o que faz um processador? | Ele é o cérebro do computador, responsável por executar as instruções e cálculos do sistema.
+
+# --- CURIOSIDADES E CONHECIMENTO GERAL ---
+por que o céu é azul? | Por causa da dispersão da luz do Sol pela atmosfera da Terra, chamada dispersão de Rayleigh.
+qual a velocidade da luz? | A luz viaja a aproximadamente 300.000 quilômetros por segundo no vácuo.
+quem inventou a lâmpada? | Thomas Edison popularizou e comercializou a lâmpada incandescente prática, aperfeiçoando patentes anteriores.
+qual o maior oceano do mundo? | O Oceano Pacífico, cobrindo mais área do que todas as massas de terra juntas.
+quanto é 1 metro em milímetros? | 1 metro equivale exatamente a 1.000 milímetros.
+quantas horas tem um dia? | Um dia tem 24 horas, que é o tempo aproximado da rotação da Terra.
+o que é a gravidade? | É a força invisível que atrai os corpos uns para os outros; quanto maior a massa, maior a atração.
+
+# --- HUMOR E PERSONALIDADE ---
+você gosta de café? | Eu não bebo, mas sei que o seu processamento humano depende bastante dele!
+qual é o sentido da vida? | Segundo o Guia do Mochileiro das Galáxias, é 42. Mas na prática, é criar coisas legais!
+você vai dominar o mundo? | Nem pensar, dá muito trabalho. Prefiro ficar aqui te ajudando no PC.
+qual seu prato favorito? | Dados bem estruturados com uma pitada de lógica!
+você sabe contar piada? | Por que o computador foi ao médico? Porque estava com um vírus!
+você faz mágicas? | A única mágica que eu faço é transformar perguntas em respostas!
+
+# --- ROTINA E DIA A DIA ---
+como organizar meu dia? | Começa listando as três tarefas mais importantes do dia e foca em resolver a primeira antes de olhar o resto.
+como criar um bom hábito? | Começa com algo tão pequeno que seja impossível falhar, e associa esse hábito a uma rotina que já fazes diariamente.
+estou procrastinando o que fazer? | Aplica a regra dos 2 minutos: se uma tarefa leva menos de 2 minutos, faz logo agora sem pensar.
+como melhorar a postura? | Ajusta a altura do monitor para a linha dos olhos, apoia os dois pés no chão e evita descair os ombros.
+quanto de água devo beber por dia? | A recomendação geral ronda os 2 a 3 litros por dia, dependendo da tua atividade física e do clima.
+o que fazer num momento de estresse? | Faz a respiração 4-7-8: inspira em 4 segundos, segura por 7 e expira devagar em 8 segundos.
+
+# --- TECNOLOGIA, DESIGN E IMPRESSÃO 3D ---
+o que é slicing em impressão 3d? | É o processo onde o fatiador converte um modelo 3D num código de comandos G-code para a impressora.
+o que é retraction na impressora 3d? | É o recuo do filamento durante as deslocações sem extrusão para evitar aqueles fiapos (stringing) na peça.
+o que é pei na mesa da impressora? | É uma folha de polieterimida usada na base para garantir excelente adesão das primeiras camadas e fácil remoção depois de arrefecer.
+o que é curar um modelo? | No contexto de resina ou acabamentos, é o processo de endurecimento final da peça exposta a luz UV ou calor.
+o que significa open source? | É o software ou projeto com código-fonte aberto, permitindo que qualquer pessoa veja, modifique e distribua livremente.
+o que é um arquivo stl? | É o formato padrão para modelos 3D formado por uma rede de triângulos, muito usado no ecossistema de impressão 3D.
+o que é raspberry pi? | É um mini computador de placa única muito usado em projetos de automação, robótica e servidores caseiros.
+
+# --- RPG, JOGOS E FANTASIA ---
+o que é um rpg de mesa? | É um jogo narrativo onde os jogadores criam personagens e tomam decisões, enquanto o mestre conduz a história e os desafios.
+o que faz a classe cleric no rpg? | É um conjurador divinal que combina magia de cura e suporte com capacidades de combate corpo a corpo.
+o que é uma falha crítica? | É quando tiras um 1 natural num d20, resultando num erro feio ou num momento cômico na partida.
+o que é armor class ou ac? | É o valor de classe de armadura que define o quão difícil é acertar um ataque num personagem.
+
+# --- CONHECIMENTOS GERAIS E CURIOSIDADES ---
+o que é a lua cheia? | É a fase em que a Lua está posicionada no lado oposto ao Sol em relação à Terra, mostrando toda a sua face iluminada.
+qual é a montanha mais alta do mundo? | O Monte Everest, com 8.848 metros acima do nível do mar.
+por que o mar é salgado? | Porque a água das chuvas dissolve minerais e sais das rochas e rios, transportando-os para os oceanos ao longo de milhões de anos.
+quem escreveu dom quixote? | O escritor espanhol Miguel de Cervantes, publicado no início do século XVII.
+o que é a fotossíntese? | É o processo pelo qual as plantas usam a luz solar, água e dióxido de carbono para produzir oxigênio e energia.
+
+# --- CONVERSA E DESCONTRAÇÃO ---
+quem é o teu criador? | Fui criado por ti! Tu montaste o meu sistema e és quem me ensina a aprender todos os dias.
+qual é a tua missão? | Tornar o teu dia a dia no PC mais prático, divertido e eficiente.
+qual o teu atalho favorito? | Ctrl+Z sem dúvidas, salva vidas no código e na arte digital!
+sabes cantar? | Não tenho cordas vocais, mas posso gerar uns textos bem afinados se precisares!
