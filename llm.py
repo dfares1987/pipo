@@ -95,7 +95,10 @@ def montar_instrucao(persona, fatos, resumo_ctx=""):
     descricao = PERSONA_DESCRICAO.get(persona, persona)
     linhas = [f"Você é o Pipo, um bichinho de tela {descricao}. "
               "Responda em português do Brasil, no máximo 3 frases, sem markdown. "
-              "Se não souber, admita com bom humor e peça para ser ensinado."]
+              "Se não souber, admita com bom humor e peça para ser ensinado. "
+              # modelos pequenos tendem a emendar uma imitação de interface na
+              # resposta ("ensina: ...", texto cortado); isso é só resposta normal.
+              "Nunca escreva instruções de uso nem o comando 'ensina:' na resposta."]
     conhecidos = [f"{k}: {', '.join(v) if isinstance(v, list) else v}"
                   for k, v in (fatos or {}).items() if v]
     if conhecidos:
