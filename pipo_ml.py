@@ -1443,15 +1443,15 @@ class Pipo:
                 for papel, tx in self.hist[-6:] if tx != AVISO_IA]
         resposta = self.llm.perguntar(montar_instrucao(self.persona, self.cerebro.estado["fatos"]),
                                       hist + [{"role": "user", "conteudo": pergunta}])
-        def aplicar():
-            if resposta:
-                rid = self.cerebro.rid(self.persona, "llm", resposta)
-                r = {"texto": resposta, "humor": "normal", "intencao": "llm",
-                     "origem": "ia local", "id": rid, "conf": 0.5, "acao": None}
-            else:                       # servidor fora do ar: cai no "não sei" de sempre
-                r = self.cerebro.responder(pergunta, self.persona, self.ctx_cerebro())
-            self.fila.put(lambda: self.responder(pergunta, r))
-        self.root.after(0, aplicar)     # a rede terminou; o resto tem que ser na thread da UI
+        if resposta:
+            rid = self.cerebro.rid(self.persona, "llm", resposta)
+            r = {"texto": resposta, "humor": "normal", "intencao": "llm",
+                 "origem": "ia local", "id": rid, "conf": 0.5, "acao": None}
+        else:                           # servidor fora do ar: cai no "não sei" de sempre
+            r = self.cerebro.responder(pergunta, self.persona, self.ctx_cerebro())
+        # a UI só é tocada pela fila (self.fila), consumida pelo after da thread principal;
+        # chamar root.after() de outra thread dá RuntimeError quando o mainloop não está ativo.
+        self.fila.put(lambda: self.responder(pergunta, r))
 
     def responder(self, pergunta, r):
         # o aviso de espera não entra no histórico; na tela ele sai quando a resposta chega
