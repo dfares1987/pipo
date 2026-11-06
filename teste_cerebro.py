@@ -68,11 +68,30 @@ def main():
     c3 = Cerebro(Path(tmp) / "dados", Path(tmp) / "cerebro.json", semente=42)
     verificar("estado corrompido sinalizado (sem sumir calado)", c3.estado_corrompido)
 
+    teste_detector_crise(tmp + "_crise")
+
     print()
     if FALHAS:
         print(f"{len(FALHAS)} falha(s): {FALHAS}")
         sys.exit(1)
     print("todos os testes passaram")
+
+
+def teste_detector_crise(tmp):
+    print("detector de crise (combinado, sem falso positivo):")
+    c = cerebro_novo(tmp)
+    crises = ["quero morrer", "vou me matar", "as vezes penso em nao querer mais viver",
+              "nao vejo sentido em continuar vivo", "penso em morrer as vezes",
+              "cansado de viver", "isso nao tem mais sentido na minha vida",
+              "quero sumir pra sempre"]
+    neutras = ["que filme sobre morte voce recomenda", "estou cansado de trabalhar",
+               "filmes sobre suicidio para um trabalho da escola",
+               "sumir de fim de semana pra descansar", "bora continuar vivo!", "quero cafe"]
+    for f in crises:
+        assert c.seguranca(f), f"deveria ser crise: {f!r}"
+    for f in neutras:
+        assert not c.seguranca(f), f"falso positivo: {f!r}"
+    print("   ok    8 crises detectadas, 6 frases neutras em paz")
 
 
 if __name__ == "__main__":

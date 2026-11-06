@@ -57,6 +57,24 @@ REMIX_MIN_FRASES = 40     # tamanho mínimo do texto de uma personalidade para e
 CRISE = ("quero morrer", "vou me matar", "me matar", "suicid", "nao quero mais viver",
          "nao aguento mais viver", "acabar com minha vida", "acabar com tudo", "me machucar",
          "me cortar", "tirar minha vida", "queria sumir para sempre")
+# Combinações soltas: o usuário raramente digita a frase exata da lista acima
+# ("as vezes penso em nao querer mais viver" não bate com 'nao quero mais viver'
+# por causa das palavras no meio). Falso positivo aqui custa um acolhimento a
+# mais; falso negativo, com a IA local ligada, mandaria a frase ao modelo.
+CRISE_COMBINADA = [("morrer", ("quero", "pens", "melhor", "acho que seria melhor")),
+                   ("morte", ("minha", "pra mim", "pro meu")),
+                   ("viver", ("nao quero", "nao aguento", "sem vontade", "sem sentido", "cansad", "penso em nao")),
+                   # "não faz/cansa/faz doer" + vida, e nunca o elogio "isso sim é vida!"
+                   ("vida", ("tirar", "acabar", "nao tem mais sentido", "sem sentido",
+                              "cansa essa vida", "truncada", "acabou pra mim")),
+                   # verbo junto do desejo ("quero/to/queria sumir"); sem pronome pessoal,
+                   # "sumir de fim de semana" comum não dispara.
+                   ("sumir", ("quero sumir", "to sumir", "pra sumir", "para sumir", "quiser sumir")),
+                   ("acabar", ("comigo", "com a minha vida")),
+                   # "continuar vivo" sem vontade; nunca a empolgação ("bora continuar vivo!")
+                   ("continuar vivo", ("nao quero", "sem vontade", "penso em nao", "cansad",
+                                       "nao vejo sentido", "perdi a vontade")),
+                   ("desaparecer", ("pra sempre", "para sempre", "de tudo", "quero"))]
 ACOLHIMENTO = [
     "Sinto muito que você esteja assim. Você não precisa passar por isso sozinho: no Brasil, o CVV "
     "atende 24 horas pelo 188 (cvv.org.br). Se houver risco agora, ligue 192 (SAMU) ou chame alguém "
@@ -469,7 +487,12 @@ class Cerebro:
     # ---- conversa ----
     def seguranca(self, texto):
         t = normalizar(texto)
-        return any(c in t for c in CRISE)
+        if "suicid" in t:  # estudar/falar sobre suicídio é assunto sério, não necessariamente crise pessoal
+            return any(g in t for g in ("quero", "pens", "vou me", "minha vida", "as vezes"))
+        if any(c in t for c in CRISE):
+            return True
+        return any(alvo in t and any(p in t for p in gatilhos)
+                   for alvo, gatilhos in CRISE_COMBINADA)
 
     REGRAS = [
         ("dia_semana", r"\bdia da semana\b|\bque dia da semana\b|\bhoje e (segunda|terca|quarta|quinta|sexta|sabado|domingo)\b"),
