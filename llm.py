@@ -22,7 +22,9 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-TIMEOUT_PADRAO = 8          # segundos: modelo local preso não pode travar o Pipo
+TIMEOUT_PADRAO = 45       # segundos: modelo local FRIO pode levar ~15 s só para carregar
+                            # (medido com llama-swap + qwen 0.8B). A UI nunca espera por
+                            # isso — a chamada corre em thread. Ajuste em llm.json.
 MAX_TOKENS = 220
 PERSONA_DESCRICAO = {       # o mesmo texto que aparece no menu, para o prompt ficar curto
     "fofinho": "carinhoso e bem-humorado",
